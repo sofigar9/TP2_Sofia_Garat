@@ -1,0 +1,270 @@
+    1  cat>archivo1.txt
+    2  cat >archivo1.txt
+    3  cat >archivo2.txt
+    4  grep dias archivo1.txt
+    5  grep -n dias archivo1.txt
+    6  grep -c dias archivo1.txt
+    7  pwd
+    8  cd ..
+    9  pwd
+   10  ssh-keygen -t ed25519
+   11  ls -l
+   12  mkdir clase4
+   13  pwd
+   14  cd/clase4
+   15  cd clase4/
+   16  pwd
+   17  practica
+   18  mkdir practica 
+   19  ls -l
+   20  cp  practica1.txt/home/clase4  
+   21  cp practica1.txt/home/clase4
+   22  cp --help
+   23  cp practica1.txt/home/sgarat/clase4
+   24  cp practica1.txt -t /home/sgarat/clase4
+   25  cat $HOME/.ssh/*.pub
+   26  cd ..
+   27  cat $HOME/.ssh/*.pub
+   28  ls -l
+   29  ls -la
+   30  cd .ssh
+   31  ls -l
+   32  cat id_ed25519.pub
+   33  cd ..
+   34  mkdir repogit
+   35  cd repogit
+   36  git clone git@github.com:sofigar9/TP_AySO.git
+   37  git clone git@github.com:sofigar9/TP_AySO.git]
+   38  git clone git@github.com:sofigar9/TP_AySO.git
+   39  git --version
+   40  sudo apt-get update
+   41  sudo apt-get install git
+   42  git --version
+   43  cd ..
+   44  sudo apt-get update
+   45  git --version
+   46  cd repogit
+   47  sudo apt-get update
+   48  cd ..
+   49  ls -l
+   50  cd repogit
+   51  git clone git@github.com:sofigar9/TP_AySO.git
+   52  sudo apt-get update
+   53  sudo dnf check-update
+   54  sudo dnf install git 
+   55  cd repogit
+   56  git clone git@github.com:sofigar9/TP_AySO.git
+   57  cd TP_AySO/
+   58  pwd
+   59  ls -l
+   60  cat /etc/os-release
+   61  man grep
+   62  grep HOME_URL /etc/os-release
+   63  grep home_url /etc/os-release
+   64  man grep
+   65  grep <-i> Home_url /etc/os-release
+   66  grep -i Home_url /etc/os-release
+   67  grep -i Home_url /etc/os-release >
+   68  datos_url.txt
+   69  grep -i Home_url /etc/os-release > datos_url.txt
+   70  whoami
+   71  id -un
+   72  echo “Usuario=$(whoami)” > datos_usuario.txt
+   73  whoami
+   74  cat > datos_usuario.txt 
+   75  echo “Usuario=$(whoami)” > datos_usuario.txt
+   76  cat datos_usuario.txt 
+   77  ls -l
+   78  cat datosusuario.txt
+   79  cat datos_usuario.txt 
+   80  git add .
+   81  git config --global user.email "sobeck1308@gmail.com"
+   82  git config --global user.name "sofigar9"
+   83  git commit -m "ADD: agregado 1er
+   84  ejercicio sobre datos_usuarios.txt"
+   85  cat datos_url.txt
+   86  git status
+   87  git push
+   88  grep “model name”
+   89  grep "model name" /proc/cpuinfo
+   90  datos_usuarios.txt
+   91  man grep
+   92  grep "model name" /proc/cpuinfo
+   93  |
+   94  | head n-1
+   95  grep "model name" /proc/cpuinfo | head -n1
+   96  >> datos_usuarios.txt
+   97  car datos_usuarios.txt
+   98  cat datos_usuarios.txt
+   99  cat datos_usuario.txt
+  100  grep "model name" /proc/cpuinfo | head -n1
+  101  >> datos_usuario.txt
+  102  cat datos_usuario.txt
+  103  grep "model name" /proc/cpuinfo 
+  104  | head -n1
+  105  grep "model name" /proc/cpuinfo | head -n1
+  106  grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+  107  cat datos_usuario.txt
+  108  rm datos_usuarios.txt
+  109  git add .
+  110  git commit -m "feat: Añadiendo información de CPU"
+  111  ls -l
+  112  cat datos_usuario.txt
+  113  cat <<EOF >> README.md
+  114  Alumno/a: Sofia Garat
+  115  División: 113
+  116  Turno: Manana
+  117  EOF
+  118  git add README.md datos_usuario.txt
+  119  git commit -m "ADD: Añadiendo Readme y datos de usuario"
+  120  git push
+  121  mk -p {materia1,materia2}/{uni1,uni2,uni3}
+  122  cd ..
+  123  mkdir -p {materia1,materia2}/{uni1,uni2,uni3}
+  124  tree
+  125  history -a
+  126  $HOME/.bash_history
+  127   .bash_history
+  128  cd repogit
+  129  cp .bash_history Historial_comandos_Garat.txt
+  130  cp $HOME/.bash_history Historial_comandos_Garat.txt
+  131  git add .
+  132  cd TP_AySO/
+  133  git add .
+  134  git commit -m "ADD: Historial de comandos de Garat"
+  135  git push
+  136  cd ..
+  137  clear
+  138  tree
+  139  clear
+  140  cd repogit/
+  141  ls -l
+  142  clear
+  143  cd ..
+  144  clear
+  145  pwd
+  146  cd repogit/
+  147  clear 
+  148  cd ..
+  149  clear
+  150  cd repogit/
+  151  cd TP_AySO/
+  152  CD ..
+  153  cd ..
+  154  cd..
+  155  cd ..
+  156  clear
+  157  cd repogit/
+  158  cd TP_AySO/
+  159  ls -l
+  160  cd ..
+  161  clear
+  162  cd repogit
+  163  cd ..
+  164  ls -l
+  165   cd materia1
+  166  ls -l
+  167  cd ..
+  168  clear
+  169  pwd
+  170  ls -l
+  171  cd repogit/
+  172  cd TP_AySO/
+  173  ls -l
+  174  cat datos_usuario.txt
+  175  cd ..
+  176  ls -l
+  177  cat Historial_comandos_Garat.txt 
+  178  cd ..
+  179  pwd
+  180  tree
+  181  ls -l
+  182  pwd
+  183  ls -l /home
+  184  useradd -m -s /bin/bash -c "esto es un comentario" newuser
+  185  cd clase8
+  186  cd clase8/
+  187  cd clase8.
+  188  vim script.sh
+  189  ls /l
+  190  ls -
+  191  ls -l
+  192  cd clase8
+  193  ch mos 755 script1.sh
+  194  chmod 755 script1.sh
+  195  fdisk -l
+  196  sudo fdisk -l
+  197  sudo fdisk /dev/sdb
+  198  sudo fdisk /dev/mapper
+  199  sudo fdisk /dev/mapper/luks-89568f05-d98d-4f7b-85a5-4fb955708334
+  200  sudo fdisk -l
+  201  sudo fdisk /dev/sdb
+  202  sudo fdisk ls -l
+  203  fdisk ls -l
+  204  sudo fdisk -l
+  205  sudo fdisk /dev/sdb
+  206  sudo fdisk -l
+  207  mkfs.ext4 /dev/sdb1
+  208  mkfs.ext4 /dev/sdb5
+  209  mkfs.ext4 /dev/sdb6
+  210  sudo fdisk /dev/sdb
+  211  mkfs.ext4 /dev/sdb5
+  212  free
+  213  sudo mkswap /dev/sdb3
+  214  sudo swapon /dev/sdb3
+  215  sudo fdisk -l
+  216  sudo fdisk /dev/sdc 
+  217  sudo fdisk -l
+  218  sudo fdisk /dev/sdc 
+  219  free
+  220  free -h
+  221  sudo mkswap /dev/sdc1
+  222  sudo swapon /dev/sdc1
+  223  free -h
+  224  cat proc/swaps
+  225  swapon -s
+  226  sudo fdisk -l
+  227  sudo fdisk /dev/sdd
+  228  sudo fdisk -l
+  229  sudo wipefs -a /dev/sdd1
+  230  sudo pvcreate /dev/sdc2 /dev/sdc3 /dev/sdc5 /dev/sdc6 /dev/sdd1 /dev/sdd2
+  231  sudo pvs
+  232  sudo pvremove /dev/sdc2 /dev/sdc3 /dev/sdd5 /dev/sdd6 /dev/sdc1 /dev/sdc2
+  233  sudo pvremove /dev/sdc2 /dev/sdc3 /dev/sdc5 /dev/sdc6 /dev/sdd1 /dev/sdd2
+  234  sudo wipefs -a /dev/sdd1
+  235  sudo wipefs -a /dev/sdd2
+  236  sudo wipefs -a /dev/sdc2
+  237  sudo wipefs -a /dev/sdc3
+  238  sudo wipefs -a /dev/sdc5
+  239  sudo wipefs -a /dev/sdc6
+  240  sudo pvcreate /dev/sdc2 /dev/sdc3 /dev/sdc5 /dev/sdc6 /dev/sdd1 /dev/sdd2
+  241  sudo pvs
+  242  sudo vgcreate vg_datos /dev/sdd1 /dev/sdc2
+  243  sudo vgd
+  244  sudo vgs
+  245  sudo pvs
+  246  sudo vgcreate vg_web /dev/sdd2
+  247  sudo pvs
+  248  sudo lvcreate -L 1G vg_web -n lv_web1
+  249  sudo lvcreate -L 512M vg_web -n 1v_web2
+  250  sudo lvcreate -L 512M vg_web -n lv_web3
+  251  sudo lvs
+  252  sudo pvs
+  253  sudo fdisk -l
+  254  sudo mkfs.ext4 /dev/mapper/vg_web-lv_web1
+  255  sudo mkfs.ext4 /dev/mapper/vg_web-lv_web2
+  256  sudo mkfs.ext4 /dev/mapper/vg_web-1v_web2
+  257  sudo mkfs.ext4 /dev/mapper/vg_web-lv_web3
+  258  git clone https://github.com/sofigar9/TP2_Sofia_Garat.git
+  259  git add.
+  260   sudo pvs > pvs.txt
+  261  7888888888~
+  262  sudo vgs > vgs.txt
+  263  sudo lvs > lvs.txt 
+  264  history > historial_lvm.txt
+  265  cd TP2_Sofia_Garat
+  266  ls
+  267   sudo pvs > pvs.txt
+  268   sudo vgs > vgs.txt
+  269   sudo lvs > lvs.txt
+  270  history > historial_lvm.txt
